@@ -16,7 +16,7 @@ export class NavBarComponent implements OnInit{
   ngOnInit(): void {
     this.items = [
         {
-            label: 'inicio',
+            label: 'Inicio',
             icon: 'pi pi-fw pi-home'
         },
         {
@@ -24,12 +24,12 @@ export class NavBarComponent implements OnInit{
             icon: 'pi pi-fw pi-user',
         },
         {
-            label: 'Contacto',
-            icon: 'pi pi-fw pi-calendar'
+            label: 'Habilidades',
+            icon: 'pi pi-fw pi-star'
         },
         {
-            label: 'Blog',
-            icon: 'pi pi-fw pi-bookmark'
+            label: 'Proyectos',
+            icon: 'pi pi-fw pi-code'
         }
   ];
 
